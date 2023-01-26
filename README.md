@@ -13,11 +13,11 @@ v: represent a vertical 1x2,
 '.' means it is blank, where we can move our tile that fits in
 '2' means it is a single 1x1 tile
 
-^^^^
-vvvv
-22..
-11<>
-1122
+[[^^^^],
+[vvvv],
+[22..],
+[11<>],
+[1122]]
 
 # Use of A_star algo would give you the optimal solution to a solvable board configuration.
 Steps are counted by moving 1 piece by only 1 block
