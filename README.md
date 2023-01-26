@@ -19,6 +19,9 @@ vvvv
 11<>
 1122
 
+# Use of A_star algo would give you the optimal solution to a solvable configuration.
+# Steps are counted by moving 1 piece by only 1 block
+# Ex: moving the 1x1 piece down by 2 takes 2 steps to finish
 Usage:
     python3 hrd.py --algo astar --inputfile <input file> --outputfile <output file>    
     python3 hrd.py --algo dfs --inputfile <input file> --outputfile <output file>
